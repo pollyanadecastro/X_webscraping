@@ -14,7 +14,7 @@ options = webdriver.ChromeOptions()
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 driver.get(url)
 
-time.sleep(5)
+time.sleep(60)
 
 html = driver.page_source
 driver.quit()
@@ -53,5 +53,6 @@ df = pd.DataFrame(dados)
 
 os.makedirs("data", exist_ok=True)
 df.to_csv("data/tweets.csv", index=False)
+
 
 print(df)
