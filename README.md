@@ -28,13 +28,11 @@ x_webscraping/
 
 data/
     tweets.csv
-
 src/
     scraper.py
-
 requirements.txt
 README.md
-.gitignore
+
 
 ## Como executar o projeto
 
@@ -53,6 +51,7 @@ data/tweets.csv
 ## Observação
 
 O script foi desenvolvido apenas para fins educacionais, com o objetivo de praticar técnicas de **coleta e organização de dados na web**.
+
 
 
 
